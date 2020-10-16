@@ -9,8 +9,6 @@ import queue as Q
 import heapq
 import resource
 
-
-#### SKELETON CODE ####
 ## The Class that Represents the Puzzle
 class PuzzleState(object):
     """
@@ -140,9 +138,6 @@ class PuzzleState(object):
         return self.children
 
 # Function that Writes to output.txt
-
-### Students need to change the method to have the corresponding parameters
-
             
 def writeOutput(string, file="output.txt"):
     ### Student Code Goes here
